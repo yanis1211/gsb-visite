@@ -1,0 +1,425 @@
+.Navigation {
+    display: flex;
+    /* Utiliser Flexbox pour aligner les éléments */
+    align-items: center;
+    /* Aligner verticalement les éléments dans la barre de navigation */
+    background-color: #3C7993;
+    /* Couleur de fond de la barre de navigation, modifiez selon votre design */
+    padding: 10px;
+    /* Espacement intérieur de la barre de navigation */
+    width: 100%;
+    height: 100px;
+    padding: 0%;
+}
+
+/* Styles pour la liste ul dans la barre de navigation */
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Utiliser Flexbox pour aligner horizontalement les éléments */
+}
+
+/* Style pour chaque élément de la barre de navigation */
+nav ul li {
+    margin-right: 20px;
+    /* Espacement entre chaque élément de la liste */
+}
+
+/* Style pour la classe du conteneur du logo */
+.logo-container {
+    height: 100vh;
+    margin-right: auto;
+    /* Mettre le logo à l'extrême gauche en utilisant la marge automatique */
+}
+
+/* Style pour le lien du logo */
+.logo-link {
+    display: block;
+}
+
+/* Style pour le logo */
+.logo {
+    height: 100px;
+    width: auto;
+    max-width: 247px;
+    max-height: 100%;
+    margin: 0;
+    /* Supprime les marges */
+    padding: 0;
+    display: block;
+
+
+}
+
+#texte {
+    text-decoration: none;
+    color: gray;
+}
+
+#connexion {
+    background-color: #ffffff;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+    height: 45px;
+}
+
+#deconnexion {
+    background-color: #ffffff;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: auto;
+    margin-right: 20px;
+    height: 45px;
+}
+
+#accueil {
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 45px;
+}
+
+.Sec {
+    width: 100%;
+    height: 350px;
+}
+
+.Bat {
+    width: 100%;
+    height: 310px;
+}
+
+
+
+
+.contenu {
+    position: absolute;
+    top: 25%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 500px;
+    font-size: 26px;
+}
+
+#connexion2 {
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 80px;
+    background-color: #000715;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: gray;
+    font-size: 26px;
+
+}
+
+.contenuBienvenue {
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 80%;
+    font-size: 26px;
+}
+
+#plus {
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 80px;
+    background-color: #000715;
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: gray;
+    font-size: 26px;
+}
+
+
+
+
+#footer {
+    position: absolute;
+    /* Fixe le footer en bas de l'élément parent */
+    bottom: 0;
+    /* Place le footer tout en bas */
+    width: 100%;
+    /* Prend toute la largeur disponible */
+    background-color: #004F7B;
+    /* Couleur de fond */
+    text-align: center;
+    /* Centre le contenu du footer */
+    padding: 10px 0;
+    /* Espace intérieur pour le contenu du footer */
+
+}
+
+
+footer.main_footer {
+    position: relative;
+    /* Permet d'éviter que le contenu ne chevauche le footer */
+    padding-top: 20px;
+    /* Espace pour que le contenu ne soit pas caché par le footer */
+    box-sizing: border-box;
+    /* Inclut les bordures et le padding dans la hauteur et la largeur */
+    background-color: #3C7993;
+
+}
+
+.col-md-3 {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+
+
+.row {
+    width: 100%;
+    height: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-inline-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.list-inline-item:hover img {
+    transform: rotate(360deg);
+}
+
+
+#login {
+    padding-bottom: 200px;
+}
+
+#login img {
+    margin: 10px 0;
+}
+
+#login .center {
+    text-align: center;
+}
+
+#login .login {
+    max-width: 300px;
+    margin: 35px auto;
+}
+
+#login .login-form {
+    padding: 0px 25px;
+}
+
+.co {
+    background-image: url(background/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.Choix {
+    background-image: url(background/indexe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    width: auto;
+}
+
+#index-text {
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+}
+
+#Medecin {
+    background-color: #15000035;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-left: auto;
+    margin-right: 200px;
+    height: 150px;
+    width: 500px;
+    font-size: 64px;
+
+}
+
+#Rapports {
+
+    background-color: #15000035;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 200px;
+    margin-right: auto;
+    height: 175px;
+    width: 500px;
+    font-size: 64px;
+
+}
+
+#edit {
+    background-color: #15000035;
+    padding-left: 20px;
+    border-radius: 80px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-left: 200px;
+    margin-right: auto;
+    height: 175px;
+    width: 500px;
+    font-size: 64px;
+
+
+}
+
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+    background-image: url(background/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.form-items {
+
+    background-color: #3c799341;
+
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.form-content input[type=text],
+.form-content input[type=email],
+.form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+#table {
+    margin-bottom: 0px;
+}
